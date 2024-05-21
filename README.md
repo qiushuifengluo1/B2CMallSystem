@@ -4,24 +4,6 @@
 
 这是一个基于B2C模式的电子商务系统，后端使用了Beego框架，前端使用了HTML5、CSS和jQuery，数据库采用了Redis和MySQL。
 
-## 目录结构
-
-.
-├── certfiles/
-├── common/
-├── conf/
-├── controllers/
-│ ├── api/
-│ ├── backend/
-│ └── frontend/
-├── models/
-├── routers/
-├── static/
-├── tests/
-├── views/
-├── main.go
-└── README.md
-
 
 ## 环境要求
 
