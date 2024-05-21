@@ -1,4 +1,3 @@
-# B2CMallSystem
 
 # B2C Mall System
 
