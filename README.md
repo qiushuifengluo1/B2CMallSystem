@@ -20,17 +20,17 @@
 
 在Ubuntu上安装Go
 
-sudo apt update
-sudo apt install -y golang-go
+1.1 sudo apt update
+1.2 sudo apt instal -y golang-go
 
 ### 2. 安装MySQL
 
 在Ubuntu上安装MySQL：
 
--sudo apt update
--sudo apt install -y mysql-server
--sudo systemctl start mysql
--sudo systemctl enable mysql
+2.1 sudo apt update
+2.2 sudo apt install -y mysql-server
+2.3 sudo systemctl start mysql
+2.4 sudo systemctl enable mysql
 
 ### 3.配置MySQL
 
@@ -38,26 +38,26 @@ sudo mysql_secure_installation
 
 ### 4.创建数据库和用户
 
-CREATE DATABASE shop;
-CREATE USER 'your_name'@'localhost' IDENTIFIED BY 'your_password';
-GRANT ALL PRIVILEGES ON shop.* TO 'your_name'@'localhost';
-FLUSH PRIVILEGES;
+4.1 CREATE DATABASE shop;
+4.2 CREATE USER 'your_name'@'localhost' IDENTIFIED BY 'your_password';
+4.3 GRANT ALL PRIVILEGES ON shop.* TO 'your_name'@'localhost';
+4.4 FLUSH PRIVILEGES;
 
 ### 5. 安装Redis
 
 在Ubuntu上安装Redis
 
-sudo apt update
-sudo apt install -y redis-server
-sudo systemctl start redis-server
-sudo systemctl enable redis-server
+5.1 sudo apt update
+5.2 sudo apt install -y redis-server
+5.3 sudo systemctl start redis-server
+5.4 sudo systemctl enable redis-server
 
 ### 6. 安装Node.js
 
 在Ubuntu上安装Node.js
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt install -y nodejs
+6.1 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+6.2 sudo apt install -y nodejs
 
 
 ### 7. 配置项目
