@@ -18,41 +18,50 @@
 
 ### 1. 安装Go
 
-在Ubuntu上安装Go：
+在Ubuntu上安装Go
 
 sudo apt update
 sudo apt install -y golang-go
 
 ### 2. 安装MySQL
+
 在Ubuntu上安装MySQL：
+
 -sudo apt update
 -sudo apt install -y mysql-server
 -sudo systemctl start mysql
 -sudo systemctl enable mysql
 
-### 3.配置MySQL：
+### 3.配置MySQL
+
 sudo mysql_secure_installation
 
-### 4.创建数据库和用户：
+### 4.创建数据库和用户
+
 CREATE DATABASE shop;
 CREATE USER 'your_name'@'localhost' IDENTIFIED BY 'your_password';
 GRANT ALL PRIVILEGES ON shop.* TO 'your_name'@'localhost';
 FLUSH PRIVILEGES;
 
 ### 5. 安装Redis
-在Ubuntu上安装Redis：
+
+在Ubuntu上安装Redis
+
 sudo apt update
 sudo apt install -y redis-server
 sudo systemctl start redis-server
 sudo systemctl enable redis-server
 
 ### 6. 安装Node.js
-在Ubuntu上安装Node.js：
+
+在Ubuntu上安装Node.js
+
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install -y nodejs
 
 
 ### 7. 配置项目
+
 编辑项目的配置文件 conf/app.conf：
 
 appname = b2c-ecommerce   ----你自己项目的名字
@@ -72,11 +81,13 @@ port = 6379
 
 
 ### 8. 安装项目依赖
+
 在项目根目录下安装Go依赖：
 
 go mod tidy
 
 ### 9. 运行项目
+
 在项目根目录下运行Beego项目：
 bee run
 
