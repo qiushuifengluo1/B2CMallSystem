@@ -26,11 +26,10 @@
 ### 2. 安装MySQL
 
 在Ubuntu上安装MySQL：
-
-2.1 sudo apt update
-2.2 sudo apt install -y mysql-server
-2.3 sudo systemctl start mysql
-2.4 sudo systemctl enable mysql
+  2.1 sudo apt update
+  2.2 sudo apt install -y mysql-server
+  2.3 sudo systemctl start mysql
+  2.4 sudo systemctl enable mysql
 
 ### 3.配置MySQL
 
