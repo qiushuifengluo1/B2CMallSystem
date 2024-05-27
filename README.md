@@ -25,10 +25,10 @@ sudo apt install -y golang-go
 
 ### 2. 安装MySQL
 在Ubuntu上安装MySQL：
-sudo apt update
-sudo apt install -y mysql-server
-sudo systemctl start mysql
-sudo systemctl enable mysql
+-sudo apt update
+-sudo apt install -y mysql-server
+-sudo systemctl start mysql
+-sudo systemctl enable mysql
 
 ### 3.配置MySQL：
 sudo mysql_secure_installation
